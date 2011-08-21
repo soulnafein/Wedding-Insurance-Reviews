@@ -1,0 +1,68 @@
+@import "mixins"
+
+body
+  font-size: 16px
+  line-height: 20px
+  color: white
+  +linear-gradient(#fff, #eee)
+
+h1
+  font-size: 40px
+  line-height: 40px
+  text-align: center
+  +linear-gradient(#333, #3a3a3a)
+  margin: 0 0 20px 0
+  padding: 10px
+  font-family: 'Coustard', serif
+  font-weight: 400
+
+h2
+  font-size: 27px
+  line-height: 40px
+  font-family: 'Coustard', serif
+  font-weight: 400
+
+h3
+  font-size: 20px
+
+h4
+  font-size: 16px
+
+em
+  background-color: yellow
+  padding: 5px 10px
+
+header
+  +linear-gradient(#70538c, #5f4777)
+  +clearfix
+  border-bottom: 5px solid #333
+
+  p
+    font-size: 18px
+    line-height: 30px
+
+
+section.step-one
+  +clearfix
+  height: 2000px
+
+  h2
+    color: #333
+
+  img
+    +rounded-corners(20px, 20px, 0, 0)
+
+  ul
+    list-style: none
+
+  li
+    float: left
+    display: block
+    width: 240px
+    margin: 0 20px 10px 20px
+
+    a
+      font-size: 27px
+      line-height: 40px
+
+  
